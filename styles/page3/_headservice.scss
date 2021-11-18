@@ -1,0 +1,29 @@
+.header-section1 {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+}
+.header {
+  &_wrap {
+    padding-bottom: 75px;
+  }
+}
+.section1_main,
+.section2-main {
+  padding-top: 0;
+  min-height: auto;
+}
+.main_link {
+  &:hover {
+    border: none;
+    color: $white;
+    text-decoration: underline;
+  }
+}
+.redline {
+  text-decoration: underline;
+  color: white;
+}

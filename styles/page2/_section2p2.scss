@@ -1,0 +1,104 @@
+.section2 {
+  &-main {
+    background-color: #f5f5fa;
+    padding-top: 0;
+  }
+  &-sub {
+    text-align: center;
+  }
+  &-subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark-blue;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.section2-info {
+  padding-bottom: 30px;
+  border-bottom: 4px solid #e6e6f0;
+}
+
+.carousel {
+  &-caption {
+    min-width: 300px;
+    min-height: 109px;
+    background-color: $white;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.d-flex-1 {
+  padding-top: 20px;
+}
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .number-2 {
+    display: none;
+  }
+  .carousel-flex {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .number-2 {
+    display: flex;
+  }
+  .number-3,
+  .number-4 {
+    display: none;
+  }
+  .carousel-flex {
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .carousel-caption {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 1.25rem;
+  }
+}
+@media screen and (max-width: 567px) {
+  .carousel-caption {
+    min-width: 157px;
+    min-height: 57px;
+  }
+  .number-2 {
+    display: flex;
+  }
+  .number-3,
+  .number-4 {
+    display: none;
+  }
+  .carousel-flex {
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+  }
+  .carousel-caption {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 1.25rem;
+  }
+}

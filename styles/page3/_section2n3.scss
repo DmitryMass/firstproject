@@ -1,0 +1,11 @@
+.section4 {
+  &-main {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main_number {
+    color: $white;
+  }
+}

@@ -1,0 +1,163 @@
+.main_li-link {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.main {
+  &-n-header {
+    background-image: url(../../assets/images/bgtop.png);
+    background-position: center;
+    background-size: cover;
+  }
+  &_box-logo {
+    padding-top: 50px;
+  }
+  &_adress {
+    color: $white;
+    line-height: $lh-19;
+    font-size: $fs-16;
+    margin: 0 13px 0 26px;
+  }
+  &_phone {
+    margin: 0 10px 0 13px;
+  }
+  &_number {
+    font-weight: bold;
+    font-size: $fs-16;
+    line-height: $lh-19;
+    color: $white;
+    margin: 0 10px 0 5px;
+  }
+  &_btn-language {
+    border-radius: 8px;
+    background: none;
+    color: $white;
+    border: none;
+    text-transform: uppercase;
+    font-size: $fs-12;
+    line-height: $lh-14;
+    letter-spacing: 1px;
+    height: 24px;
+    width: 29px;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      background-color: $red;
+      transition: 0.3s ease;
+    }
+  }
+  &_link {
+    display: inline-block;
+    color: $white;
+    font-size: 17px;
+    line-height: $lh-21;
+    padding-left: 15px;
+    &:hover {
+      border: none;
+      color: $red;
+      text-decoration: underline;
+    }
+  }
+  &_logo-name {
+    color: $white;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+  &_nav {
+    margin-top: -10px;
+  }
+  &_logo-href {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  &_logo-img {
+    position: relative;
+    z-index: -1;
+  }
+}
+.logo-span {
+  display: inline-block;
+}
+/*** BURGER MENU ****/
+////////////////////
+////////////////
+
+.navbar {
+  display: none;
+}
+.offcanvas-backdrop {
+  background-color: transparent;
+}
+.offcanvas.show {
+  transform: none;
+}
+.offcanvas {
+  position: absolute;
+  height: 100%;
+  border-radius: 12px;
+  top: 100%;
+}
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 0 20px;
+  overflow-y: visible;
+}
+.btn-close {
+  background: url(../../assets/icons/close_red.svg) center/2em no-repeat;
+  width: 20px;
+  opacity: 1;
+  &:focus {
+    box-shadow: none;
+  }
+  &:active {
+    color: red;
+  }
+}
+.navbar-toggler-icon {
+  background-image: url(../../assets/icons/menu.svg);
+  width: 32px;
+}
+
+.offcanvas-bottom {
+  min-height: 348px;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: $bg-lgray;
+  width: 100%;
+  margin-bottom: 11px;
+  border: none;
+  &:hover {
+    background-color: #ededf7;
+  }
+}
+.offcanvas-header {
+  justify-content: flex-end;
+}
+
+.offcanvas-backdrop.fade.show {
+  display: none;
+}
+/*///Media // */
+//////////////////////////////
+///////////////////////////////
+///////////////////////////////
+
+.main_info_2 {
+  display: none;
+}
+.main_language_2 {
+  display: none;
+}
+.main_number_2 {
+  display: none;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "graduation_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rug-pug": "pug --pretty --watch index.pug",
+    "rug-pug2": "pug --pretty --watch aboutus.pug",
+    "rug-services": "pug --pretty --watch services.pug",
+    "rug-services-p2": "pug --pretty --watch services2.pug",
+    "rug-team": "pug --pretty --watch team.pug",
+    "rug-contact": "pug --pretty --watch contact.pug"
+
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
